@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container1{
+    width: 90%;
+    height: 670px;
+    margin: 0 auto;
+    background-image: url(/images/bg.jpg);
+    background-repeat: no-repeat;
+}
+.logo-part{
+    width: 40%;
+    float: left;
+}
+.logo-part img{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.menu-part{
+    width: 60%;
+    float: left;
+    padding-top: 20px;
+}
+.menu-part nav ul li{
+    transition-duration: 500ms;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.menu-part nav ul li:hover{
+    color: rgb(16, 201, 195);
+    font-size: 1.25em;
+}
+.hero-text{
+    width: 414px;
+    height: auto;
+    top: 273px;
+    right: 254px;        
+    position: absolute;
+}
+
+.hero-text p{
+    margin: 30px auto;
+}
+.hero-text button{
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(16, 201, 195);
+    padding: 15px 30px;
+}
+.container2{
+    width: 90%;
+    margin: auto;
+}
+.about h1{
+    text-align: center;
+    padding: 100px 0 30px;
+}
+.about p{
+    width: 590px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about img{
+    position: relative;
+    left: 580px;
+    padding-bottom: 50px;
+}
+.container3{
+    width: 90%;
+    height: 546px;
+    margin: 0 auto;
+    background-image: url(/images/Skills.png);
+    background-repeat: no-repeat;
+}
+.container3 h1{
+    padding-bottom: 30px;
+}
+.row{
+    padding: 150px 100px;
+    width: 50%;
+}
+.row h5{
+    padding-bottom: 15px;
+}
+.progress{
+    height: 5px;
+    background: #D8D8D8;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+#skills .progress-bar{
+    background: #10c9c3;
+}
+.progress-bar1{
+    width: 75%;
+    height: 05px;
+    border-radius: 20px;
+}
+.progress-bar2{
+    width: 90%;
+    height: 05px;
+    border-radius: 20px;
+}
+.progress-bar3{
+    width: 65%;
+    height: 05px;
+    border-radius: 20px;
+}
+#work{
+    min-height: 220px;
+}
+.container4{
+    width: 90%;
+    margin: 0 auto;
+    background: rgb(16, 201, 195);
+}
+.content-box{
+    width: 24.5%;   
+    height: 220px;
+    display: inline-block;
+}
+.content{    
+    width: 100%;
+    padding-top: 96px;
+}
+.content-img{
+    width: 30%;
+    float: left;
+}
+.content-img img{
+    width: 60px;
+    height: 60px;
+}
+.content-text{
+    width: 70%;
+    float: left;
+}
+#work h4{
+    color: white;
+}
+.container5{
+    width: 90%;
+    margin: 0 auto;
+}
+.picture img{    
+    width: 342px;
+    height: 325px;
+    margin: -2px;
+}
+.picture img:hover{
+    content: url(/images/blackeye.jpg);
+    opacity: 0.5;
+    transition-duration: 500ms;
+}
+.work-msg{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #F4F6F7;
+    padding: 50px auto;
+}
+.work-msg p{
+    text-align: center; 
+    padding: 40px;
+    margin-top: -1px;
+}
+
+.work-msg a{
+    color: darkgray;
+    text-decoration: none; 
+    list-style: none;    
+}
+/* .pe-7s-look:before {
+    content: "image/blackeye.jpg";
+} */
+.container6{
+    width: 90%;
+    margin: 0 auto;
+}
+.process-text h1{
+    text-align: center;
+    padding: 100px 0 30px;
+}
+.process-text p{
+    width: 590px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+.video{
+    width: 100%;
+    height: 650px;
+    padding-left: 125px;
+    margin-bottom: 100px;
+}
+iframe{
+    width: 90%;
+    height: 650px;
+}
+
+.ser-cont{
+    width: 90%;
+    margin: 0px auto ;
+    background-color: rgb(16, 201, 195);
+}
+.part1{
+    width: 100%;
+}
+.coll1{
+    width: 25%;
+    float: left;
+    display: inline-block;
+    padding: 50px;
+    
+}
+.coll1 img{
+    width: 10%;
+}
+.part2{
+    width: 100%;
+    
+}
+.coll2 img{
+    width: 10%;
+}
+.coll2{
+    width: 25%;
+    float: right;
+    display: inline-block;
+    padding: 50px;
+}
+#contact{
+    margin-top: 50px;
+}
+.contact-con{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #F4F6F7;
+}
+.form{
+    padding: 100px;
+}
+.form button{
+    padding: 20px;
+    background-color: rgb(16, 201, 195);
+}
+
